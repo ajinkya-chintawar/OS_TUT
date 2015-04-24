@@ -1,0 +1,31 @@
+BEGIN {
+	class = ""
+	gross=0
+	da=0
+	hr=0
+	printf("ID || NAME || POST || BASIC SALARY || DA || HR || GROSS SALARY || CLASS \n",$1,$2,$3,$6,da,hr,gross,class)	
+}
+
+{
+	if($6)
+		da = $6 * 0.4
+		hr = $6 * 0.15
+		gross = $6 + da + hr
+
+		if(gross < 9000)
+			class = "Class FIVE Employee"
+
+		else if(gross > 9000 && gross < 10000)
+			class = "Class FOUR Employee"
+
+		else if(gross > 10000 && gross < 11000)
+			class = "Class THREE Employee"
+
+		else if(gross > 11000 && gross < 12000)
+			class = "Class TWO Employee"
+
+		else if(gross > 12000 && gross < 13000)
+			class = "Class ONE Employee"
+
+		printf("%d || %s || %s || %d || %d || %d || %d || %s \n",$1,$2,$3,$6,da,hr,gross,class)
+}

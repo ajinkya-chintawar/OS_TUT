@@ -1,0 +1,134 @@
+Experiment/Tutorial Number: 03
+
+TITLE: Execution of AWK related commands.
+
+NAME: Bhushan Agrawal			ROLLNO: 01
+
+CLASS: C                    BRANCH: Computer                         BATCH: C1
+
+DATE OF PERFORMANCE: 29/01/2015
+---------------------------------------------------------------------------------
+
+Questions:
+
+1. Print  the record having 'director' as post.
+=>
+bhushan@bhushan-HP-Pavilion-g6-Notebook-PC:~/Desktop/TE/OSTut/AWK$ awk -F "|" '/director/' emp1.txt 
+9876|jai sharma |director|production|12/03/50|7000
+2365|barun sengupta |director|personnel |11/05/47|7800
+
+OR
+
+bhushan@bhushan-HP-Pavilion-g6-Notebook-PC:~/Desktop/TE/OSTut/AWK$ awk -F "|" '$3 == "director" {print $0}' emp1.txt 
+9876|jai sharma |director|production|12/03/50|7000
+2365|barun sengupta |director|personnel |11/05/47|7800
+
+
+2. Print name,post,basic salary of employees for 'sales' dept.
+=>
+bhushan@bhushan-HP-Pavilion-g6-Notebook-PC:~/Desktop/TE/OSTut/AWK$ awk -F "|" '$4 == "sales" {print $2,$3,$6}' emp1.txt 
+a. k. shukla  g.m. 6055
+karuna dasgupta manager 5600
+anil aggarwal manager 6000
+
+
+3. Print name,basic salary of employees having post as 'director' or 'chairman'.
+=>
+bhushan@bhushan-HP-Pavilion-g6-Notebook-PC:~/Desktop/TE/OSTut/AWK$ awk -F "|" '$3 == "director" || $3 == "chairman" {print $0}' emp1.txt 
+9876|jai sharma |director|production|12/03/50|7000
+2365|barun sengupta |director|personnel |11/05/47|7800
+5423|n. k. gupta |chairman|admin|30/08/56|6700
+
+
+
+4. print the record of employees having post as 'g.m.'. 
+=>
+bhushan@bhushan-HP-Pavilion-g6-Notebook-PC:~/Desktop/TE/OSTut/AWK$ awk -F "|" '$3 == "g.m." {print $0}' emp1.txt 
+2233|a. k. shukla |g.m.|sales|12/12/52|6055
+0110|v. k. agrawal|g.m.|marketing |31/12/40|9000
+
+
+5. Print the name,post and basic  salary of employees whose salary exceeds 7500.
+=>
+bhushan@bhushan-HP-Pavilion-g6-Notebook-PC:~/Desktop/TE/OSTut/AWK$ awk -F "|" '$6 > 7500 {print $2,$3,$6}' emp1.txt 
+barun sengupta  director 7800
+v. k. agrawal g.m. 9000
+
+
+6.Print the record either born in 1955 or drawing basic salary  greater than 8000.
+=>
+bhushan@bhushan-HP-Pavilion-g6-Notebook-PC:~/Desktop/TE/OSTut/AWK$ awk -F "|" '$5~"55" || $6 > 8000 {print $0}' emp1.txt
+0110|v. k. agrawal|g.m.|marketing |31/12/40|9000
+3212|shyam saksena|d.g.m.|accounts|12/12/55|6000
+
+
+7. Assume that total salary consist of basic salary,dearness allowance (40% of basic salary) and house rent (15% of basic salary).Print the pay-slip for managers.
+=>
+bhushan@bhushan-HP-Pavilion-g6-Notebook-PC:~/Desktop/TE/OSTut/AWK$ awk -F "|" -f 007.awk emp1.txt
+1265 		 karuna dasgupta 		 manager 		 5600 		 2240 		 840 
+2476 		 anil aggarwal 		 manager 		 6000 		 2400 		 900 
+
+
+8. Find the employees whose employee number ends with 5.
+=>
+bhushan@bhushan-HP-Pavilion-g6-Notebook-PC:~/Desktop/TE/OSTut/AWK$ awk -F "|" '$1~"...5" {print $0}' emp1.txt
+2365|barun sengupta |director|personnel |11/05/47|7800
+1265|karuna dasgupta|manager|sales|12/09/63|5600
+
+
+9. Find the employees whose basic salary starts with 7.
+=>
+bhushan@bhushan-HP-Pavilion-g6-Notebook-PC:~/Desktop/TE/OSTut/AWK$ awk -F "|" '$6~"^7" {print $0}' emp1.txt
+9876|jai sharma |director|production|12/03/50|7000
+2365|barun sengupta |director|personnel |11/05/47|7800
+3364|sudhir Agarwal |executive|personnel |06/07/47|7500
+
+
+10. Find the  records containing agarwal/Agarwal/aggrawal/agrawal.
+=>
+bhushan@bhushan-HP-Pavilion-g6-Notebook-PC:~/Desktop/TE/OSTut/AWK$ awk -F "|" '$2~"[aA]g*[ar][ar]wal" {print $0}' emp1.txt
+2476|anil aggarwal|manager|sales|01/05/59|6000
+3364|sudhir Agarwal |executive|personnel |06/07/47|7500
+0110|v. k. agrawal|g.m.|marketing |31/12/40|9000
+
+
+11. Print the lines having length greater than 50.
+=>
+bhushan@bhushan-HP-Pavilion-g6-Notebook-PC:~/Desktop/TE/OSTut/AWK$ awk -F "|" 'length($0) > 50  {print $0}' emp1.txt
+5678|sumit chsakrobsarty|d.g.m.|marketing |19/04/43|6000
+2365|barun sengupta |director|personnel |11/05/47|7800
+3364|sudhir Agarwal |executive|personnel |06/07/47|7500
+
+
+12. Print records from 3 to 5 for given file.
+=>
+bhushan@bhushan-HP-Pavilion-g6-Notebook-PC:~/Desktop/TE/OSTut/AWK$ awk -F "|" 'NR >= 3 && NR <= 5  {print $0}' emp1.txt
+5678|sumit chsakrobsarty|d.g.m.|marketing |19/04/43|6000
+2365|barun sengupta |director|personnel |11/05/47|7800
+5423|n. k. gupta |chairman|admin|30/08/56|6700
+
+
+13. print the total number of fields for record number 4.
+=>
+bhushan@bhushan-HP-Pavilion-g6-Notebook-PC:~/Desktop/TE/OSTut/AWK$ awk -F "|" 'NR == 4  {print NF}' emp1.txt
+6
+
+
+14. Print the name,post and basic salary for employees having name as dasgupta or sengupta.
+=>
+bhushan@bhushan-HP-Pavilion-g6-Notebook-PC:~/Desktop/TE/OSTut/AWK$ awk -F "|" '$2~"[das|sen]gupta" {print $0}' emp1.txt
+2365|barun sengupta |director|personnel |11/05/47|7800
+1265|karuna dasgupta|manager|sales|12/09/63|5600
+
+
+15. print the record of employees not having post as 'g.m.' or 'chairman'. 
+=>
+bhushan@bhushan-HP-Pavilion-g6-Notebook-PC:~/Desktop/TE/OSTut/AWK$ awk -F "|" '$3 != "g.m." && $3 != "chairman" {print $0}' emp1.txt
+9876|jai sharma |director|production|12/03/50|7000
+5678|sumit chsakrobsarty|d.g.m.|marketing |19/04/43|6000
+2365|barun sengupta |director|personnel |11/05/47|7800
+1265|karuna dasgupta|manager|sales|12/09/63|5600
+2476|anil aggarwal|manager|sales|01/05/59|6000
+3364|sudhir Agarwal |executive|personnel |06/07/47|7500
+3212|shyam saksena|d.g.m.|accounts|12/12/55|6000
+

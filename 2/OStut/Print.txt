@@ -1,0 +1,252 @@
+﻿#Tutorial Number: 02
+
+#TITLE: Shell Scripting
+
+#NAME:Bhushan Agrawal			ROLLNO:01
+
+#CLASS:C                     BRANCH:Computer                         BATCH:C1
+
+#DATE OF PERFORMANCE:20/01/2015
+
+
+Q.1]Write a shell script for a Calculator :
+
+#!/bin/sh
+
+num1=$1
+num2=$2
+temp=1
+
+while [ $temp -eq 1 ]
+do
+
+echo "
+1. Perform Addition
+2. Perform Subtraction
+3. Perform Multiplication
+4. Perform Division
+5. Perform Mod Operation
+6. EXIT
+"
+#ch=0
+flag=0
+read ch
+
+case $ch
+in
+1) echo -n "Addition is : "
+   echo `expr $1 + $2`
+   ;;
+
+2) echo -n "Subtraction is : "
+   echo `expr $1 - $2`
+   ;;
+
+3) echo -n "Multiplication is : "
+   echo `expr $1 \* $2`
+   ;;
+
+4) echo -n "Division is : "
+   echo `expr $1 / $2`
+   ;;
+
+5) echo -n "MOD is : "
+   echo `expr $1 % $2`
+   ;;
+   
+6) flag=$ch
+   ;;
+
+esac
+
+if [ $flag -eq $ch ];then
+break
+fi
+done
+
+Output :
+
+student@admin29-HP-Pro-3330-MT:~/Desktop/Untitled Folder$ sh Calculator.sh 3 5
+
+1. Perform Addition
+2. Perform Subtraction
+3. Perform Multiplication
+4. Perform Division
+5. Perform Mod Operation
+6. EXIT
+
+1
+Addition is : 8
+
+1. Perform Addition
+2. Perform Subtraction
+3. Perform Multiplication
+4. Perform Division
+5. Perform Mod Operation
+6. EXIT
+
+2
+Subtraction is : -2
+
+1. Perform Addition
+2. Perform Subtraction
+3. Perform Multiplication
+4. Perform Division
+5. Perform Mod Operation
+6. EXIT
+
+3
+Multiplication is : 15
+
+1. Perform Addition
+2. Perform Subtraction
+3. Perform Multiplication
+4. Perform Division
+5. Perform Mod Operation
+6. EXIT
+
+4
+Division is : 0
+
+1. Perform Addition
+2. Perform Subtraction
+3. Perform Multiplication
+4. Perform Division
+5. Perform Mod Operation
+6. EXIT
+
+5
+MOD is : 3
+
+1. Perform Addition
+2. Perform Subtraction
+3. Perform Multiplication
+4. Perform Division
+5. Perform Mod Operation
+6. EXIT
+
+6
+
+
+Q.2]Write a shell script for accepting File list and print it's type:
+
+#!/bin/sh
+
+FileName=$1
+
+if [ -e $1 ];then
+ echo "File Exists"
+ FileListing=`ls -l $1`
+
+ FileType=`echo $FileListing|cut -c 1`
+
+ if [ -d $FileName ];then
+  echo "Directory"
+ fi
+
+ case $FileType in
+ -) echo "Regular File";;
+ b) echo "Block Device File";;
+ c) echo "Character Device File";;
+ l) echo "Symbolic Link File";;
+ s) echo "Socket File";;
+ esac
+
+ if [ -r $FileName ];then
+  echo "Read Permission"
+ elif [ -w $FileName ];then
+  echo "Write Permission"
+ elif [ -x $FileName ];then
+  echo "Execute Permission"
+ else
+  echo "Absent" 
+ fi
+
+else
+ echo "File Does Not Exist"
+fi
+
+Output :
+
+student@admin29-HP-Pro-3330-MT:~/Desktop/Untitled Folder$ sh File.sh Calculator.sh 
+File Exists
+Regular File
+Read Permission
+
+student@admin29-HP-Pro-3330-MT:~/Desktop/Untitled Folder$ sh File.sh New
+File Exists
+Regular File
+Write Permission
+
+student@admin29-HP-Pro-3330-MT:~/Desktop/Untitled Folder$ sh File.sh New
+File Exists
+Regular File
+Execute Permission
+
+student@admin29-HP-Pro-3330-MT:~/Desktop/Untitled Folder$ sh File.sh /dev/ram0
+File Exists
+Block Device File
+Absent
+
+
+Q.3]Write a shell script for accepting a Number and printing the reverse and the sum of digits:
+
+#!/bin/sh
+
+num=$1
+sum=0
+b1=$num
+while [ $b1 -gt 0 ]
+do
+ b2=`expr $b1 % 10`
+ #echo "$b2"
+ echo -n $b2
+ b1=`expr $b1 / 10`
+ sum=`expr $sum + $b2`
+done
+echo
+echo $sum
+
+Output :
+
+student@admin29-HP-Pro-3330-MT:~/Desktop/Untitled Folder$ sh Number.sh 456
+654
+15
+
+
+Q.4]Write a shell script for accepting a string and checking if the string is Palindrome or not :
+
+#!/bin/sh
+
+String=$1
+len=${#String}
+
+i=1;flag=0
+mid=`expr $len / 2`
+temp=$len
+
+while [ $i -le $mid ]
+do
+ ch1=`echo $String|cut -c $i`
+ ch2=`echo $String|cut -c $len`
+ 
+ if [ $ch1 != $ch2 ];then
+  flag=1
+  break;
+ fi
+ 
+ i=`expr $i + 1`
+ len=`expr $len - 1`
+done
+
+if [ $flag -eq 1 ];then
+ echo "Not Palindrome"
+else 
+ echo "Palindrome"
+fi
+
+#student@admin49-OptiPlex-360:~/Desktop$ ./Palindrom.sh nitin
+#Palindrome
+#student@admin49-OptiPlex-360:~/Desktop$ ./Palindrom.sh niti
+#Not Palindrome
+

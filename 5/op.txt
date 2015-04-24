@@ -1,0 +1,62 @@
+﻿bhushan@bhushan-HP-Pavilion-g6-Notebook-PC:~/Desktop$ ./a.out
+
+producer created successfully
+producing..
+item produced : 1
+item produced : 2
+item produced : 3
+item produced : 4
+consuming..
+item produced : 5
+item produced : 6
+item produced : 7
+item produced : 8
+item produced : 9
+item produced : 10
+consumer created successfully
+item consumed : 10
+producing..
+item produced : 11
+item consumed : 11
+producing..
+item produced : 12
+item consumed : 12
+producing..
+item produced : 13
+item consumed : 13
+producing..
+item produced : 14
+item consumed : 14
+producing..
+item produced : 15
+item consumed : 15
+producing..
+item produced : 16
+item consumed : 16
+producing..
+item produced : 17
+item consumed : 17
+producing..
+item produced : 18
+item consumed : 18
+producing..
+item produced : 19
+item consumed : 19
+producing..
+item produced : 20
+item consumed : 20
+producing..
+item produced : 21
+item consumed : 21
+producing..
+item produced : 22
+item consumed : 22
+producing..
+item produced : 23
+item consumed : 23
+producing..
+item produced : 24
+item consumed : 24
+producing..
+item produced : 25
+item consumed : 25

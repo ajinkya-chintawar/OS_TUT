@@ -1,0 +1,13 @@
+bhushan@bhushan-HP-Pavilion-g6-Notebook-PC:~/Desktop/TE/OSTut/AWK$ awk -F "|" -f new.awk emp1.txt
+ID || NAME || POST || BASIC SALARY || DA || HR || GROSS SALARY || CLASS 
+2233 || a. k. shukla  || g.m. || 6055 || 2422 || 908 || 9385 || Class FOUR Employee 
+9876 || jai sharma  || director || 7000 || 2800 || 1050 || 10850 || Class THREE Employee 
+5678 || sumit chsakrobsarty || d.g.m. || 6000 || 2400 || 900 || 9300 || Class FOUR Employee 
+2365 || barun sengupta  || director || 7800 || 3120 || 1170 || 12090 || Class ONE Employee 
+5423 || n. k. gupta  || chairman || 6700 || 2680 || 1005 || 10385 || Class THREE Employee 
+1265 || karuna dasgupta || manager || 5600 || 2240 || 840 || 8680 || Class FIVE Employee 
+2476 || anil aggarwal || manager || 6000 || 2400 || 900 || 9300 || Class FOUR Employee 
+3364 || sudhir Agarwal  || executive || 7500 || 3000 || 1125 || 11625 || Class TWO Employee 
+110 || v. k. agrawal || g.m. || 9000 || 3600 || 1350 || 13950 || Class TWO Employee 
+3212 || shyam saksena || d.g.m. || 6000 || 2400 || 900 || 9300 || Class FOUR Employee 
+

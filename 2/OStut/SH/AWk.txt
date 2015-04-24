@@ -1,0 +1,11 @@
+awk -F "|" `$2 ~"gupta" { print $1,$2,$5}` data.txt
+
+
+eno	ename	dept	basic_sal	
+
+
+eno	ename	dept	basic_sal	da	hra	Gross_sal
+
+da=10%
+hra=15%
+Gross_sal=basic_sal+da+hra

@@ -1,0 +1,1000 @@
+  999  javac shr.java
+ 1000  gedit shr.java
+ 1001  javac shr.java
+ 1002  java shr
+ 1003  gedit shr.java
+ 1004  javac shr.java
+ 1005  java shr
+ 1006  javac shr.java
+ 1007  gedit shr.java
+ 1008  javac shr.java
+ 1009  java shr
+ 1010  gedit shr.java
+ 1011  javac shr.java
+ 1012  gedit shr.java
+ 1013  javac shr.java
+ 1014  gedit shr1.java
+ 1015  gedit shr.java
+ 1016  javac shr.java
+ 1017  java shr
+ 1018  javac shr.java
+ 1019  cd Desktop
+ 1020  gcc stack.c
+ 1021  java shr
+ 1022  gcc stack.c
+ 1023  cd desktop
+ 1024  cd descktop
+ 1025  cd Desktop
+ 1026  gedit IntoPost.c
+ 1027  gedit recrsnstck.c
+ 1028  gcc ./aout
+ 1029  gcc recrsnstck.c
+ 1030  clear
+ 1031  gedit recrsnstck.c
+ 1032  gcc recrsnstck.c
+ 1033  gcc ./a.out 
+ 1034  gcc recrsnstck.c
+ 1035  gedit recrsnstck.c
+ 1036  gcc recrsnstck.c
+ 1037  gedit recrsnstck.c
+ 1038  cd Desktop
+ 1039  gedit rrobin.c
+ 1040  gcc rrobin.c
+ 1041  gedit rrobin.c
+ 1042  clear
+ 1043  gcc rrobin.c
+ 1044  ./a.out
+ 1045  clear
+ 1046  gedit rrobin.c
+ 1047  gcc rrobin.c
+ 1048  gedit rrobin.c
+ 1049  clear
+ 1050  gcc rrobin.c
+ 1051  ./a.out
+ 1052  gedit rrobin.c
+ 1053  clear
+ 1054  cd desktop data
+ 1055  cd priyanka
+ 1056  cd Desktop
+ 1057  cd priyanka
+ 1058  gcc roundrobin.c
+ 1059  ./a.out
+ 1060  gedit  roundrobin.c
+ 1061  clear
+ 1062  clear
+ 1063  gcc rrobin.c
+ 1064  gcc round_robin.c
+ 1065  cd Desktop
+ 1066  gcc rw.c
+ 1067  gcc rw.c -l pthread
+ 1068  ./a.out
+ 1069  cls
+ 1070  clear
+ 1071  gcc Tut_5_2.c
+ 1072  gcc Tut_5b.c -l pthread
+ 1073  ./a.out
+ 1074  gcc Tut_5bb.c -l pthread
+ 1075  ./a.out
+ 1076  clear
+ 1077  gcc Tut_5bb.c -l pthread
+ 1078  clear
+ 1079  gcc Tut_5bb.c -l pthread
+ 1080  ./a.out
+ 1081  2~clear
+ 1082  clear
+ 1083  gcc Tut_5aa.c -l pthread
+ 1084  ./a.out
+ 1085  clear
+ 1086  gcc Tut_5aa.c -l pthread
+ 1087  ./a.out
+ 1088  clear
+ 1089  gcc Tut_5aa.c -l pthread
+ 1090  ./a.out
+ 1091  cd Desktop
+ 1092  gcc Tut_5aa.c -l pthread
+ 1093  ./a.out
+ 1094  clear
+ 1095  gcc Tut_5a.c
+ 1096  gcc Tut_5a.c -l pthread
+ 1097  ./a.out
+ 1098  gcc Tut_5b.c -l pthread
+ 1099  clear
+ 1100  gcc Tut_5b.c -l pthread
+ 1101  ./a.out
+ 1102  cleqar
+ 1103  clear
+ 1104  gcc Tut_5aa.c -l pthread
+ 1105  ./a.out
+ 1106  gcc Tut_5bb.c -l pthread
+ 1107  ./a.out
+ 1108  gcc Tut_5bb.c -l pthread
+ 1109  ./a.out
+ 1110  gcc Tut_5a.c -l pthread
+ 1111  gcc Tut_5aa.c -l pthread
+ 1112  ./a.out
+ 1113  cd Desktop
+ 1114  gcc Tut_5aa.c -l pthread
+ 1115  ./a.out
+ 1116  gedit Linked list2.C
+ 1117  ping google.com
+ 1118  ls
+ 1119  pwd
+ 1120  cd Desktop/
+ 1121  cd priyanka/
+ 1122  gcc database.c
+ 1123  gedit database.c
+ 1124  gcc database.c
+ 1125  gedit database.c
+ 1126  gcc database.c
+ 1127  ./a.out
+ 1128  gedit database.c
+ 1129  gcc database.c
+ 1130  gedit database.c
+ 1131  gcc database.c
+ 1132  gedit database.c
+ 1133  gcc database.c
+ 1134  gedit database.c
+ 1135  gcc database.c
+ 1136  gedit database.c
+ 1137  gcc database.c
+ 1138  ./a.out
+ 1139  gedit database.c
+ 1140  gcc database.c
+ 1141  gedit database.c
+ 1142  gcc database.c
+ 1143  gedit database.c
+ 1144  gcc database.c
+ 1145  ./a.out
+ 1146  gedit database.c
+ 1147  gcc database.c
+ 1148  gedit database.c
+ 1149  gcc database.c
+ 1150  ./a.out
+ 1151  gedit database.c
+ 1152  gcc database.c
+ 1153  ./a.out
+ 1154  gedit database.c
+ 1155  gcc database.c
+ 1156  ./a.out
+ 1157  gedit database.c
+ 1158  gcc database.c
+ 1159  ./a.out
+ 1160  gedit database.c
+ 1161  gcc database.c
+ 1162  ./a.out
+ 1163  gedit database.c
+ 1164  gcc database.c
+ 1165  gedit database.c
+ 1166  gcc database.c
+ 1167  ./a.out
+ 1168  gedit database.c
+ 1169  gcc database.c
+ 1170  ./a.out
+ 1171  gedit database.c
+ 1172  gcc database.c
+ 1173  gedit database.c
+ 1174  gcc database.c
+ 1175  ./a.out
+ 1176  gedit database.c
+ 1177  gedit tree.c
+ 1178  gcc tree.c
+ 1179  ls
+ 1180  cd Desktop/
+ 1181  ls
+ 1182  gcc binarytree.c
+ 1183  clear
+ 1184  gcc binarytree.c
+ 1185  ls
+ 1186  cd Desktop/
+ 1187  ls
+ 1188  gcc binarytree.c
+ 1189  clear
+ 1190  gcc binarytree.c
+ 1191  ./a.out
+ 1192  ls
+ 1193  cd Desktop/
+ 1194  ls
+ 1195  gcc binarytree.c
+ 1196  ./a.out
+ 1197  ls
+ 1198  cd Dea
+ 1199  cd Desktop/
+ 1200  ls
+ 1201  gcc binarytree.c
+ 1202  ./a.out
+ 1203  ls
+ 1204  cd Desktop/
+ 1205  ls
+ 1206  gcc binarytree.c
+ 1207  ./a.out
+ 1208  javac Thread_Demo1.java
+ 1209  javac hello.java
+ 1210  java hello
+ 1211  java Thread_Demo1
+ 1212  javac Thread_Demo1.java
+ 1213  java Thread_Demo1
+ 1214  javac Thread_Demo1.java
+ 1215  java Thread_Demo1
+ 1216  javac Thread_Demo2.java
+ 1217  java Thread_Demo2
+ 1218  javac Thread_Demo2.java
+ 1219  java Thread_Demo2
+ 1220  javac Thread_Demo2.java
+ 1221  java Thread_Demo2
+ 1222  javac Thread_Demo2.java
+ 1223  java Thread_Demo2
+ 1224  javac Thread_Demo2.java
+ 1225  java Thread_Demo2
+ 1226  javac Thread_Demo3.java
+ 1227  java Thread_Demo3
+ 1228  javac Thread_Demo4.java
+ 1229  java Thread_Demo4
+ 1230  javac Thread_Demo4.java
+ 1231  java Thread_Demo4
+ 1232  javac Thread_Demo4.java
+ 1233  java Thread_Demo4
+ 1234  javac Thread_Demo4.java
+ 1235  java Thread_Demo4
+ 1236  javac Thread_Demo4.java
+ 1237  java Thread_Demo4
+ 1238  cd Desktop
+ 1239  javac mythread.java
+ 1240  javac thread_demo1.java
+ 1241  java thread_demo1
+ 1242  javac thread_demo1.java
+ 1243  java thread_demo1
+ 1244  javac thread_demo2.java
+ 1245  java thread_demo2
+ 1246  javac thread_demo2.java
+ 1247  java thread_demo2
+ 1248  javac thread_demo2.java
+ 1249  java thread_demo2
+ 1250  javac thread_demo2.java
+ 1251  java thread_demo2
+ 1252  javac thread_demo2.java
+ 1253  java thread_demo2
+ 1254  javac thread_demo2.java
+ 1255  java thread_demo2
+ 1256  javac thread_demo2.java
+ 1257  java thread_demo2
+ 1258  javac thread_demo2.java
+ 1259  java thread_demo2
+ 1260  javac thread_demo2.java
+ 1261  java thread_demo2
+ 1262  javac thread_demo2.java
+ 1263  java thread_demo2
+ 1264  javac thread_demo2.java
+ 1265  java thread_demo2
+ 1266  javac thread_demo2.java
+ 1267  java thread_demo2
+ 1268  javac thread_demo2.java
+ 1269  java thread_demo2
+ 1270  javac thread_demo2.java
+ 1271  java thread_demo2
+ 1272  javac thread_demo2.java
+ 1273  java thread_demo2
+ 1274  javac thread_demo2.java
+ 1275  java thread_demo2
+ 1276  javac thread_demo2.java
+ 1277  java thread_demo2
+ 1278  javac thread_demo2.java
+ 1279  java thread_demo2
+ 1280  javac thread_demo2.java
+ 1281  java thread_demo2
+ 1282  javac thread_demo2.java
+ 1283  java thread_demo2
+ 1284  javac thread_demo2.java
+ 1285  java thread_demo2
+ 1286  javac thread_demo2.java
+ 1287  java thread_demo2
+ 1288  javac thread_demo2.java
+ 1289  java thread_demo2
+ 1290  javac thread_demo2.java
+ 1291  java thread_demo2
+ 1292  cd Desktop
+ 1293  cd Desktop/
+ 1294  gcc bin.c
+ 1295  cd Desktop
+ 1296  gcc bin.c
+ 1297  cd Desktop
+ 1298  gcc binarytree.c
+ 1299  ./a.out
+ 1300  cd Desktop
+ 1301  gcc bin.c
+ 1302  gcc binarytree.c
+ 1303  ./a.out
+ 1304  cd Desktop
+ 1305  gcc bin.c
+ 1306  cd ..
+ 1307  cd student
+ 1308  cd Student
+ 1309  cd Desktop
+ 1310  gcc bin.c
+ 1311  ./a.out
+ 1312  cd Desktop
+ 1313  gcc bst.c
+ 1314  clear
+ 1315  gcc bst.c
+ 1316  clear
+ 1317  gcc bst.c
+ 1318  clear
+ 1319  gcc bst.c
+ 1320  clear
+ 1321  gcc bst.c
+ 1322  claer
+ 1323  clear
+ 1324  gcc bst.c
+ 1325  clear
+ 1326  gcc bst.c
+ 1327  ./a.out
+ 1328  gcc bst.c
+ 1329  ./a.out
+ 1330  gcc bst.c
+ 1331  ./a.out
+ 1332  gcc bst.c
+ 1333  ./a.out
+ 1334  gcc bst.c
+ 1335  ./a.out
+ 1336  gcc bst.c
+ 1337  ./a.out
+ 1338  gcc bst.c
+ 1339  ./a.out
+ 1340  clear
+ 1341  gcc bst.c
+ 1342  ./a.out
+ 1343  gcc bst.c
+ 1344  ./a.out
+ 1345  gcc bst.c
+ 1346  ./a.out
+ 1347  cd Desktop
+ 1348  gcc bst.c
+ 1349  ./a.out
+ 1350  gcc bst.c
+ 1351  ./a.out
+ 1352  gcc bst.c
+ 1353  ./a.out
+ 1354  gedit sll.C
+ 1355  gcc sll.C
+ 1356  gedit sll.C
+ 1357  gcc sll.C
+ 1358  gedit heaptable.c
+ 1359  gcc heaptable.c
+ 1360  ./a.out
+ 1361  clear
+ 1362  gedit heaptable.c
+ 1363  gcc heaptable.c
+ 1364  ./a.out
+ 1365  clear
+ 1366  gedit traversal.c
+ 1367  java
+ 1368  gedit Applet.java
+ 1369  gedit myhtml.html
+ 1370  javac MyApplet.java
+ 1371  javac Applet.java
+ 1372  gedit Applet.java
+ 1373  javac MyApplet.java
+ 1374  gedit Applet.java
+ 1375  javac MyApplet.java
+ 1376  appletviewer myhtml.html
+ 1377  javac MyApplet.java
+ 1378  appletviewer myhtml.html
+ 1379  gedit appletcalci.java
+ 1380  appletviewer appletcalci.java
+ 1381  gedit appletcalci.java
+ 1382  javac appletviewer.java
+ 1383  javac appletcalci.java
+ 1384  gedit appletcalci.java
+ 1385  javac appletcalci.java
+ 1386  gedit appletcalci.java
+ 1387  javac appletcalci.java
+ 1388  gedit appletcalci.java
+ 1389  javac appletcalci.java
+ 1390  gedit appletcalci.java
+ 1391  javac appletcalci.java
+ 1392  gedit appletcalci.java
+ 1393  javac appletcalci.java
+ 1394  gedit appletcalci.java
+ 1395  javac appletcalci.java
+ 1396  gedit myhtml2.html
+ 1397  appletviewer appletcalci.java
+ 1398  gedit myhtml2.html
+ 1399  appletviewer appletcalci.html
+ 1400  appletviewer myhtml2.html
+ 1401  gedit appletcalci.java
+ 1402  javac appletcalci.java
+ 1403  gedit appletcalci.java
+ 1404  javac appletcalci.java
+ 1405  appletviewer myhtml2.html
+ 1406  gedit appletcalci.java
+ 1407  appletviewer myhtml2.html
+ 1408  javac appletcalci.java
+ 1409  appletviewer myhtml2.html
+ 1410  gedit appletcalci.java
+ 1411  javac appletcalci.java
+ 1412  appletviewer myhtml2.html
+ 1413  gedit appletcalci.java
+ 1414  gedit appletcalcif.java
+ 1415  javac appletcalcif.java
+ 1416  java appletcalcif
+ 1417  gedit appletcalcif.java
+ 1418  javac appletcalcif.java
+ 1419  java appletcalcif
+ 1420  gedit appletcalcif.java
+ 1421  javac appletcalcif.java
+ 1422  gedit appletcalcif.java
+ 1423  javac appletcalcif.java
+ 1424  java appletcalcif
+ 1425  javac shr.java
+ 1426  gedit shr.java
+ 1427  gedit poshcalci.java
+ 1428  javac poshcalci.java
+ 1429  gedit poshcalci.java
+ 1430  gedit poshhtml.html
+ 1431  gedit poshcalci.java
+ 1432  javac poshcalci.java
+ 1433  appletviewer poshhtml.html
+ 1434  gedit pthread1.java
+ 1435  javac pthread1.java
+ 1436  gedit pthread1.java
+ 1437  javac pthread1.java
+ 1438  gedit poshcalci.java
+ 1439  gedit poshhtml.html
+ 1440  gedit poshcalci.java
+ 1441  appletviewer poshcalci.java
+ 1442  gedit pthread1.java
+ 1443  javac pthread1.java
+ 1444  gedit pthread1.java
+ 1445  javac pthread1.java
+ 1446  java pthread1
+ 1447  cp pthread1.java pthread2.java
+ 1448  gedit pthread2.java
+ 1449  javac pthread2.java
+ 1450  java pthread2
+ 1451  cp pthread2 pthread3
+ 1452  cp pthread2.java pthread3.java
+ 1453  gedit poshcalci.java
+ 1454  appletviewer poshcalci.java
+ 1455  javac poshcalci.java
+ 1456  gedit poshcalci.java
+ 1457  javac poshcalci.java
+ 1458  appletviewer poshcalci.java
+ 1459  gedit poshcalci.java
+ 1460  gedit pthread3.java
+ 1461  javac pthread3.java
+ 1462  gedit pthread3.java
+ 1463  javac pthread3.java
+ 1464  java pthread3
+ 1465  cp pthread3.java p2thread3.java
+ 1466  gedit p2thread3.java
+ 1467  javac p2thread3.java
+ 1468  gedit p2thread3.java
+ 1469  javac p2thread3.java
+ 1470  java pthread3
+ 1471  java p2thread3
+ 1472  gedit p2thread2.java
+ 1473  javac p2thread2.java
+ 1474  java p2thread2
+ 1475  cp poshcalci.java pocalci.java
+ 1476  gedit pocalci.java
+ 1477  javac pocalci.java
+ 1478  gedit pocalci.java
+ 1479  javac pocalci.java
+ 1480  java pocalci
+ 1481  gedit  p2thread3.java
+ 1482  gedit  p2thread2.java
+ 1483  cp p2thread2.java p2thread11.java
+ 1484  gedit p2thread11.java
+ 1485  javac p2thread11.java
+ 1486  gedit p2thread11.java
+ 1487  javac p2thread11.java
+ 1488  java p2thread11
+ 1489  gedit p2thread11.java
+ 1490  javac p2thread11.java
+ 1491  java p2thread11
+ 1492  javac pocalci.java
+ 1493  java pocalci
+ 1494  gedit p2thread3.java
+ 1495  javac p2thread3.java
+ 1496  java p2thread3
+ 1497  gedit p2thread2.java
+ 1498  java p2thread2.java
+ 1499  javac p2thread2.java
+ 1500  java p2thread2
+ 1501  cd Desktop/
+ 1502  gcc S.c
+ 1503  ./a.out
+ 1504  cd Desktop/
+ 1505  gcc S.c
+ 1506  ./a.out
+ 1507  cd Desktop/
+ 1508  gcc A.out
+ 1509  gcc S.c
+ 1510  ./a.out
+ 1511  cd Des
+ 1512  cd Desktop/
+ 1513  gcc S.c
+ 1514  ./a.out
+ 1515  cd Desktop/
+ 1516  gcc S.c
+ 1517  ./a.out
+ 1518  gcc S.c
+ 1519  ./a.out
+ 1520  gcc S.c
+ 1521  cd Desktop/
+ 1522  gcc S.c
+ 1523  ./a.out
+ 1524  gcc S.c
+ 1525  clear
+ 1526  gcc S.c
+ 1527  clear
+ 1528  gcc S.c
+ 1529  clear
+ 1530  gcc S.c
+ 1531  clear
+ 1532  gcc S.c
+ 1533  ./a.out
+ 1534  cd Des
+ 1535  cd Desktop/
+ 1536  gcc S.c
+ 1537  ./a.out
+ 1538  cd Desktop/
+ 1539  gcc S.c
+ 1540  ./a.out
+ 1541  cd Desktop
+ 1542  gcc S.c
+ 1543  ./a.out
+ 1544  gcc S.c
+ 1545  ./a.out
+ 1546  gcc S.c
+ 1547  ./a.out
+ 1548  gcc S.c
+ 1549  ./a.out
+ 1550  gcc S.c
+ 1551  ./a.out
+ 1552  gcc sll.c
+ 1553  ls
+ 1554  gcc gll.c
+ 1555  gedit sll.c
+ 1556  gedit s.c
+ 1557  gedit S.c
+ 1558  gedit hash.c
+ 1559  gcc hash.c
+ 1560  ls
+ 1561  gcc hash.c
+ 1562  gedit hash.c
+ 1563  ls
+ 1564  gcc hash.c
+ 1565  gedit hash.c
+ 1566  gcc hash.c
+ 1567  ./a.out
+ 1568  cd Desktop
+ 1569  cd POSHRAJ
+ 1570  javac pthread1.java
+ 1571  java pthread1.java
+ 1572  g++ book.cpp
+ 1573  cd Desktop
+ 1574  gcc quicksort.c
+ 1575  gcc q.c
+ 1576  ./a.out
+ 1577  gcc quicksort.c
+ 1578  clear
+ 1579  gcc quicksort.c
+ 1580  clear
+ 1581  gcc bb.c
+ 1582  ./a.out
+ 1583  gcc bb.c
+ 1584  ./a.out
+ 1585  clear
+ 1586  gcc bb.c
+ 1587  ./a.out
+ 1588  cd Desktop
+ 1589  gcc bb.c
+ 1590  ./a.out
+ 1591  gcc bb.c
+ 1592  ./a.out
+ 1593  clear
+ 1594  gcc quicksort.c
+ 1595  clear
+ 1596  gcc g.c
+ 1597  ./a.out
+ 1598  cd Desktop
+ 1599  gcc g.c
+ 1600  ./a.out
+ 1601  clear
+ 1602  gcc quick.c
+ 1603  ./a.out
+ 1604  gcc quick.c
+ 1605  ./a.out
+ 1606  gcc quick.c
+ 1607  ./a.out
+ 1608  gcc quick.c
+ 1609  ./a.out
+ 1610  gcc quick.c
+ 1611  ./a.out
+ 1612  gcc quick.c
+ 1613  ./a.out
+ 1614  gcc quick.c
+ 1615  ./a.out
+ 1616  gcc quick.c
+ 1617  ./a.out
+ 1618  gcc quick.c
+ 1619  ./a.out
+ 1620  cd Desktop
+ 1621  ./a.out
+ 1622  cd Desktop
+ 1623  gcc quick.c
+ 1624  ./a.out
+ 1625  gcc quick.c
+ 1626  ./a.out
+ 1627  gcc quick.c
+ 1628  ./a.out
+ 1629  gcc quick.c
+ 1630  ./a.out
+ 1631  gcc aaaaaa.c
+ 1632  clear
+ 1633  gcc quick.c
+ 1634  ./a.out
+ 1635  gcc quick.c
+ 1636  ./a.out
+ 1637  gcc quick.c
+ 1638  ./a.out
+ 1639  gcc quick.c
+ 1640  ./a.out
+ 1641  gcc quick.c
+ 1642  ./a.out
+ 1643  gcc quick.c
+ 1644  ./a.out
+ 1645  gcc quick.c
+ 1646  ./a.out
+ 1647  cd Desktop
+ 1648  gcc quick.c
+ 1649  ./a.out
+ 1650  cd Desktop
+ 1651  gcc quick.c
+ 1652  ./a.out
+ 1653  gcc quick.c
+ 1654  ./a.out
+ 1655  clear
+ 1656  gcc quick.c
+ 1657  ./a.out
+ 1658  gcc quick.c
+ 1659  ./a.out
+ 1660  gcc quick.c
+ 1661  ./a.out
+ 1662  cd Desktop
+ 1663  g++ quicksort.cpp
+ 1664  clear
+ 1665  g++ quicksort.cpp
+ 1666  clear
+ 1667  g++ quicksort.cpp
+ 1668  clear
+ 1669  g++ quicksort.cpp
+ 1670  clear
+ 1671  g++ quicksort.cpp
+ 1672  clear
+ 1673  g++ quicksort.cpp
+ 1674  clear
+ 1675  g++ quicksort.cpp
+ 1676  clear
+ 1677  g++ quicksort.cpp
+ 1678  clear
+ 1679  g++ quicksort.cpp
+ 1680  clear
+ 1681  g++ quicksort.cpp
+ 1682  clear
+ 1683  g++ quicksort.cpp
+ 1684  clear
+ 1685  g++ quicksort.cpp
+ 1686  ./a.out
+ 1687  g++ quicksort.cpp
+ 1688  ./a.out
+ 1689  clear
+ 1690  g++ quicksort.cpp
+ 1691  ./a.out
+ 1692  clear
+ 1693  g++ quicksort.cpp
+ 1694  clear
+ 1695  ./a.out
+ 1696  clear
+ 1697  g++ quicksort.cpp
+ 1698  ./a.out
+ 1699  clear
+ 1700  g++ quicksort.cpp
+ 1701  ./a.out
+ 1702  g++ quicksort.cpp
+ 1703  ./a.out
+ 1704  clear
+ 1705  g++ quicksort.cpp
+ 1706  ./a.out
+ 1707  g++ quicksort.cpp
+ 1708  ./a.out
+ 1709  g++ quicksort.cpp
+ 1710  ./a.out
+ 1711  clear
+ 1712  g++ quicksort.cpp
+ 1713  ./a.out
+ 1714  clear
+ 1715  g++ quicksort.cpp
+ 1716  ./a.out
+ 1717  g++ quicksort.cpp
+ 1718  ./a.out
+ 1719  g++ quicksort.cpp
+ 1720  ./a.out
+ 1721  g++ quicksort.cpp
+ 1722  cd Desktop
+ 1723  g++ quicksort.cpp
+ 1724  ./a.out
+ 1725  g++ quicksort.cpp
+ 1726  ./a.out
+ 1727  g++ quicksort.cpp
+ 1728  ./a.out
+ 1729  g++ quicksort.cpp
+ 1730  ./a.out
+ 1731  6 45 
+ 1732  7 65 
+ 1733  8 54 
+ 1734  g++ quicksort.cpp
+ 1735  ./a.out
+ 1736  6 23
+ 1737  7 12
+ 1738  8 54
+ 1739  g++ quicksort.cpp
+ 1740  ./a.out
+ 1741  clear
+ 1742  g++ quicksort.cpp
+ 1743  ./a.out
+ 1744  g++ quicksort.cpp
+ 1745  ./a.out
+ 1746  gcc quick.c
+ 1747  cd Desktop
+ 1748  gcc quick.c
+ 1749  ./a.out
+ 1750  cd Desktop
+ 1751  gcc quick.c
+ 1752  ./a.out
+ 1753  cd Desktop
+ 1754  g++ quicksort.cpp
+ 1755  ./a.out
+ 1756  1
+ 1757  gedit hello.cpp
+ 1758  g++ hello.cpp
+ 1759  gcc hello.cpp
+ 1760  g++ hello.cpp
+ 1761  ./a.out hello.cpp
+ 1762  gedit classes and objects.cpp
+ 1763  gedit classes.cpp
+ 1764  g++ classes.cpp
+ 1765  ./a.out
+ 1766  constructor.cpp
+ 1767  gedit cons.cpp
+ 1768  g++ cons.cpp
+ 1769  ./a.out
+ 1770  g
+ 1771  g++ cons.cpp
+ 1772  ./a.out
+ 1773  g++ cons.cpp
+ 1774  ./a.out
+ 1775  gedit dest.cpp
+ 1776  cd Desktop
+ 1777  gcc bubble.c
+ 1778  g++ cons.cpp
+ 1779  gcc bubble.c
+ 1780  .\a.out
+ 1781  gcc bubble.c
+ 1782  .\a.out
+ 1783  ./a.out
+ 1784  clrscr
+ 1785  clear
+ 1786  gcc bubble.c
+ 1787  ./a.out
+ 1788  clear
+ 1789  gcc bubble.c
+ 1790  ./a.out
+ 1791  clear
+ 1792  ./a.out
+ 1793  gcc bubble.c
+ 1794  cd Desktop
+ 1795  gcc bubble.c
+ 1796  ./a.out
+ 1797  gcc bubble.c
+ 1798  cd Desktop
+ 1799  gcc bubble.c
+ 1800  ./a.out
+ 1801  gcc bubble.c
+ 1802  ./a.out
+ 1803  gcc bubble.c
+ 1804  ./a.out
+ 1805  gcc bubble.c
+ 1806  ./a.out
+ 1807  gcc bubble.c
+ 1808  ./a.out
+ 1809  gcc bubble.c
+ 1810  ./a.out
+ 1811  su
+ 1812  passwd
+ 1813  chmod student+x aaaaaa
+ 1814  chmod --help
+ 1815  clear
+ 1816  chmod --help
+ 1817  ls
+ 1818  ls f*
+ 1819  cat f1 f2
+ 1820  cat f1 f2 > f3
+ 1821  cat f3
+ 1822  cat f1
+ 1823  cat f2
+ 1824  cmp f1 f2 
+ 1825  comm f1 f2 
+ 1826  comm -12 f1 f2 
+ 1827  comm -3 f1 f2 
+ 1828  comm f2 f1 
+ 1829  diff f1 f2 
+ 1830  cat f1 
+ 1831  cat f2
+ 1832  diff f2 f1 
+ 1833  zip f1
+ 1834  gzip f1
+ 1835  ls f*
+ 1836  gunzip f1.gz
+ 1837  clear
+ 1838  history
+ 1839  env
+ 1840  echo SHELL
+ 1841  echo $SHELL
+ 1842  echo $HOME
+ 1843  ENV
+ 1844  clear
+ 1845  ls
+ 1846  ls |wc -l
+ 1847  ls |wc -w
+ 1848  wc -f f1
+ 1849  wc -w f1
+ 1850  clear
+ 1851  ls 
+ 1852  clear
+ 1853  cat f1
+ 1854  cat f1 > f3
+ 1855  cat f3
+ 1856  cat >>f3
+ 1857  cat f3
+ 1858  cat f4
+ 1859  cat f4 >errfile
+ 1860  ls e*
+ 1861  cat errfile
+ 1862  cat f4 2> errfile
+ 1863  cat errfile
+ 1864  clear
+ 1865  cat f1
+ 1866  cat f2
+ 1867  tr 'a' 'A' f1
+ 1868  tr 'a' 'A' < f1
+ 1869  tr 'a-z' 'A-Z' < f1
+ 1870  head f1
+ 1871  cat >>f1
+ 1872  clear
+ 1873  cat f1
+ 1874  head f1
+ 1875  tail f1
+ 1876  head -2 f1
+ 1877  tail -3 f1
+ 1878  tail -n 3 f1
+ 1879  tail -c 3 f1
+ 1880  man tail
+ 1881  cat f1
+ 1882  tr '|' '$' < f1
+ 1883  cat f1
+ 1884  clear
+ 1885  cut -d"|" -f 1,4 f1
+ 1886  cut -d"|" -f 3 f1
+ 1887  cut -d"|" -f 1,4 f1 > f3
+ 1888  cut -d"|" -f 3 f1 >f4
+ 1889  cat f3 f4
+ 1890  paste  f3 f4
+ 1891  clear
+ 1892  paste  -d " | " f3 f4
+ 1893  paste  -d "|" f3 f4
+ 1894  sort f1
+ 1895  cat > f5
+ 1896  sort f5
+ 1897  sort -n f5
+ 1898  clear
+ 1899  sort -t "|" -k f1
+ 1900  cut -d"|" -f 3 f1 >f4
+ 1901  sort -t"|" -k 2 f1
+ 1902  sort -t"|" -k 4 f1
+ 1903  sort -t"|" -k 4 f1 > f1
+ 1904  cat f1
+ 1905  sort -t"|" -k 4 f1 
+ 1906  clear
+ 1907  cat >f1
+ 1908  cat f1
+ 1909  uniq f1
+ 1910  man uniq
+ 1911  uniq -d f1
+ 1912  sort f1 >f2
+ 1913  uniq -d f2
+ 1914  uniq  f2
+ 1915  cat f2
+ 1916  clear
+ 1917  cat f1
+ 1918  cat f2
+ 1919  uniq f2
+ 1920  uniq -d f2
+ 1921  clear
+ 1922  who
+ 1923  who 
+ 1924  who |wc -l
+ 1925  who |wc -l > f4
+ 1926  cat f4
+ 1927  who |wc -l |tee f5
+ 1928  who |tee f5|wc -l
+ 1929  cat f5
+ 1930  clear
+ 1931  cat f1
+ 1932  cat >>f1
+ 1933  clear
+ 1934  cat f1
+ 1935  cat >f2
+ 1936  grep "asd" f1
+ 1937  grep "as" f1
+ 1938  grep "as" f1 f2
+ 1939  grep "as" f1 f2 f3 f4 f5
+ 1940  grep -c "as" f1 f2 f3 f4 f5
+ 1941  grep -c "as" f1 
+ 1942  grep -n "as" f1 
+ 1943  grep -v "as" f1 
+ 1944  grep -i "as" f1 
+ 1945  cat >>f1
+ 1946  grep -i "as" f1 
+ 1947  grep  "as" f1 
+ 1948  grep  "AS" f1 
+ 1949  grep  "AS" "as" "768" "56" f1 
+ 1950  grep  -e "AS" -e "as" -e "768" -e "56" f1 
+ 1951  grep  -e "AS" -e "as" -e "768" -e "56" f1 f2
+ 1952  cat >pat
+ 1953  grep  pat f1 f2
+ 1954  grep  -f pat f1 f2
+ 1955  man grep
+ 1956  clear
+ 1957  grep -icn "as" f1 
+ 1958  grep -i -c cn "as" f1 
+ 1959  grep -i -c -n "as" f1 
+ 1960  grep -c -n -i  "as" f1 
+ 1961  grep -c  -i  "as" f1 
+ 1962  grep -n  -i  "as" f1 
+ 1963  grep -n  -i  "as" -c  f1 
+ 1964  grep -n  -i  -c "as"  f1 
+ 1965  grep -ni  "as"  f1 
+ 1966  grep -ni  "as"  f1 
+ 1967  ps -aux
+ 1968  ps
+ 1969  ps -a
+ 1970  ps -aux
+ 1971  clear 
+ 1972  cat > f1
+ 1973  cat > f2
+ 1974  diff f1 f2
+ 1975  diff f2 f1
+ 1976  clear
+ 1977  passwd
+ 1978  cat /etc/passwd
+ 1979  date
+ 1980  exit
+ 1981  cal
+ 1982  who
+ 1983  date
+ 1984  date +%
+ 1985  date +%D
+ 1986  date +%d
+ 1987  man date]
+ 1988  man date
+ 1989  ls
+ 1990  clear
+ 1991  ls
+ 1992  wc cons.cpp
+ 1993  clear
+ 1994  wc cons.cpp
+ 1995  wc -l cons.cpp
+ 1996  ls -l
+ 1997  history
+ 1998  history >f1

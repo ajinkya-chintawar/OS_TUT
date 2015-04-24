@@ -1,0 +1,33 @@
+#!/bin/sh
+
+for i in `echo $HOME|ls`
+do
+	if [ -f $i ] 
+	then 
+		echo $i >>fff.txt
+	fi 
+done
+
+num_line=`wc -l fff.txt|cut -d " " -f 1`
+
+j=1
+maxS=0
+
+while [ $j -lt $num_line ]
+do
+	file_name=`head -$j fff.txt|tail -1`
+	size=`ls -l $file_name|tr -s " "|cut -d " " -f 5`
+	#echo $size
+	if [ -z $size ];then
+	 size=0
+	fi
+	if [ $size -gt $maxS ];then
+	 maxS=`echo $size`
+	 Max_file_name=`ls -l $file_name|tr -s " "| cut -d " " -f 9`
+
+	fi
+	j=`expr $j + 1`
+done
+
+echo "Maximum size file is : " $Max_file_name 
+echo "It's size is : " $size
